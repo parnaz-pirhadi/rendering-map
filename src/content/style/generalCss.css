@@ -1,0 +1,124 @@
+.centerModal {
+  position: absolute;
+  z-index: 9999;
+  left: 50%;
+}
+.fullWidth {
+  position: relative;
+  left: -50%;
+}
+
+.modal-content-list {
+  max-height: 400px;
+  overflow: auto;
+}
+.centerIcon {
+  position: absolute;
+  z-index: 9999;
+  margin: 4px;
+  right: 43px;
+  top: 6px;
+  padding: 3px 7px !important;
+  font-size: 0.9rem !important;
+}
+
+.pointer {
+  cursor: pointer
+}
+
+.searchBox {
+  position: absolute !important;
+  z-index: 9999;
+  margin: 5px 0 0 5px;
+  top: 1px;
+  width: 300px !important;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.caption {
+  display: block;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 13%;
+  right: 48px;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem;
+  margin: 2.4rem 0;
+  font-size: 0.9rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: .25rem;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 250px;
+
+
+}
+.space {
+  padding: 3px 0;
+}
+.searchBox-result {
+  position: absolute;
+  left: 5px;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem;
+  margin: 2.7rem 0;
+  font-size: 0.9rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .25rem;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 300px;
+
+}
+
+.space {
+  padding: 3px 0;
+}
+.search-item {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.fa-edit {
+  font-size: 0.9rem !important;
+  color: #25bc25 !important;
+}
+
+.fa-trash {
+  font-size: 0.9rem !important;
+  color: red !important;
+}
+.modal-footer{
+  display: inline!important;
+}

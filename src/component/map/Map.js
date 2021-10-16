@@ -366,6 +366,7 @@ class MapIr extends React.Component {
                     </Mapir.Marker>
                 </Mapir>
             </div>
+
         );
     }
 }
